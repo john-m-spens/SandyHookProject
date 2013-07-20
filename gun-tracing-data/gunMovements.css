@@ -1,0 +1,108 @@
+body {
+    background: white;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 9.5pt;
+    color: black;
+}
+
+.title {
+    font-size: 14pt;
+}
+
+.emphasis {
+    font-size: 11pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.reduced-emphasis {
+    font-size: 10pt;
+    text-align: center;
+}
+
+table,td,th {
+    table-layout: fixed;
+    border: 1px solid darkslategrey;
+    border-collapse: collapse;
+}
+
+th, td {
+    font-size: 9pt;
+    vertical-align: bottom;
+}
+
+.numeric-cell {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.text-cell {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.map-header {
+    width: 100%;
+    height: 18%;
+}
+
+.map-text {
+    width: 31%;
+    height: 70%;
+    float: left;
+    margin-left: 5px;
+}
+
+.map-display {
+    width: 15%;
+    height: 70%;
+    float: left;
+}
+
+.map-legend {
+    width: 11%;
+    height: 70%;
+    float: right;
+}
+
+.map-footer {
+    width: 100%;
+    height: 20%;
+}
+
+.template {
+    visibility: hidden;
+}
+
+#states {
+    fill: #aaa;
+    stroke: white;
+    stroke-width: .75px;
+}
+
+#states .ExtraLow {
+    fill: #ffda10;
+}
+
+#states .Low {
+    fill: #eca549;
+}
+
+#states .Medium {
+    fill: #d0745c;
+}
+
+#states .High {
+    fill: #ad493c;
+}
+
+#states .ExtraHigh {
+    fill: #7d1f22;
+}
+
+#states .Extreme {
+    fill: #461113;
+}
+#states .Selected {
+    fill: #1f22b6;
+}

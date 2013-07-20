@@ -1,0 +1,53 @@
+<!DOCTYPE html lang="en">
+<html>
+<link rel="stylesheet" href="gunMovements.css">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="gunMovements.js"></script>
+<head>
+    <meta charset="utf-8"/>
+</head>
+<body>
+<div>
+<div class=map-header>
+    <p class=title>Movement of Illegal Guns</p>
+    <p>In 2011 the ATF traced approximately 148,000 guns retrieved from criminal investigation to their state of origin.  Of those, 139,000 were identified in the Annual ATF Gun Tracing Report.  This map demonstrates where these guns were originally obtained and where they were recovered by law enforcement agencies.
+    Move your cursor over a state to see where guns that originated in a state have have been recovered.</p>
+</div>
+<div class=map-text>
+    <span id=displayStateDetails class=template>
+        <p><span id=numGunsTraced class=emphasis></span> guns traced in the US originated in <span id=stateName><br></span>.</p>
+        <p>This equates to <span class=emphasis id=gunsPerCapita></span> guns traced per 100,000 residents.</p>
+        <p>And represents <span id=pctAllTracedGuns class=emphasis></span> of all guns traced in the US in 2011.</p>
+        <span id=displayStateTable class=template>
+        <br>
+        <p class=reduced-emphasis>Top Ten States Receiving Guns from <span id=originState></span></p>
+        <table>
+            <col width=150>
+            <col width=120>
+            <col width=120>
+            <th>State</th><th class=numeric-cell>Guns Traced from <span id=stateOfOrigin></span></th><th class=numeric-cell>% Guns Traced in this State</th>
+            <tr><td class=text-cell><span id=state0>--</span></td><td class=numeric-cell><span id=gunsTraced0> -- </span></td><td class=numeric-cell><span id=totalTraced0> -- </span></td></tr>
+            <tr><td class=text-cell><span id=state1>--</span></td><td class=numeric-cell><span id=gunsTraced1> -- </span></td><td class=numeric-cell><span id=totalTraced1> -- </span></td></tr>
+            <tr><td class=text-cell><span id=state2>--</span></td><td class=numeric-cell><span id=gunsTraced2> -- </span></td><td class=numeric-cell><span id=totalTraced2> -- </span></td></tr>
+            <tr><td class=text-cell><span id=state3>--</span></td><td class=numeric-cell><span id=gunsTraced3> -- </span></td><td class=numeric-cell><span id=totalTraced3> -- </span></td></tr>
+            <tr><td class=text-cell><span id=state4>--</span></td><td class=numeric-cell><span id=gunsTraced4> -- </span></td><td class=numeric-cell><span id=totalTraced4> -- </span></td></tr>
+            <tr><td class=text-cell><span id=state5>--</span></td><td class=numeric-cell><span id=gunsTraced5> -- </span></td><td class=numeric-cell><span id=totalTraced5> -- </span></td></tr>
+            <tr><td class=text-cell><span id=state6>--</span></td><td class=numeric-cell><span id=gunsTraced6> -- </span></td><td class=numeric-cell><span id=totalTraced6> -- </span></td></tr>
+            <tr><td class=text-cell><span id=state7>--</span></td><td class=numeric-cell><span id=gunsTraced7> -- </span></td><td class=numeric-cell><span id=totalTraced7> -- </span></td></tr>
+            <tr><td class=text-cell><span id=state8>--</span></td><td class=numeric-cell><span id=gunsTraced8> -- </span></td><td class=numeric-cell><span id=totalTraced8> -- </span></td></tr>
+            <tr><td class=text-cell><span id=state9>--</span></td><td class=numeric-cell><span id=gunsTraced9> -- </span></td><td class=numeric-cell><span id=totalTraced9> -- </span></td></tr>
+        </table>
+        <br>
+    </span>
+
+</div>
+
+<div id=map-display class=map-display>
+    <script>displayMap(675,375);</script>
+</div>
+<div class=map-legend>
+    <img src="images/legend.png" width=75 height=75/>
+</div>
+</div>
+</body>
+</html>

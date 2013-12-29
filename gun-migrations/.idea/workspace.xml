@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2badd6e-c42a-46f2-9692-1eb7ed897e23" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gunMovements.css" afterPath="$PROJECT_DIR$/gunMovements.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gun-rights-scoring/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rightsScoring/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rightsScoring/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gun-rights-scoring/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rightsScoring/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rightsScoring/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rightsScoring/.idea/rightScoring.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rightsScoring/rightsScoring.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rightsScoring/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rightsScoring/statesData.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rightsScoring/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rightsScoring/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gun-migrations.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d2badd6e-c42a-46f2-9692-1eb7ed897e23" time="1388284494616" ignored="false" />
+    <file path="/Dummy.txt" changelist="d2badd6e-c42a-46f2-9692-1eb7ed897e23" time="1388306504857" ignored="false" />
+    <file path="/index.html" changelist="d2badd6e-c42a-46f2-9692-1eb7ed897e23" time="1388331245740" ignored="false" />
+    <file path="$PROJECT_DIR$/../rightsScoring/rightsScoring.js" changelist="d2badd6e-c42a-46f2-9692-1eb7ed897e23" time="1388331648135" ignored="false" />
+    <file path="/rightsScoring.js" changelist="d2badd6e-c42a-46f2-9692-1eb7ed897e23" time="1388331326152" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,25 +44,34 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="6" column="37" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gunMovements.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="gunMovements.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gunMovements.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="18" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+            <state line="30" column="21" selection-start="712" selection-end="712" vertical-scroll-proportion="0.45373666">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stateData.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="stateData.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stateData.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="92" selection-start="4093" selection-end="4093" vertical-scroll-proportion="0.3106509">
+            <state line="9" column="28" selection-start="2699" selection-end="2699" vertical-scroll-proportion="-5.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gunMovements.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gunMovements.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="10" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,7 +89,7 @@
       <file leaf-file-name="tracing-2012.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tracing-2012.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="4666" selection-end="4666" vertical-scroll-proportion="-0.625">
+            <state line="15" column="0" selection-start="4666" selection-end="4666" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,8 +116,8 @@
       <list>
         <option value="$PROJECT_DIR$/statesMap.json" />
         <option value="$PROJECT_DIR$/tracing-2012.json" />
-        <option value="$PROJECT_DIR$/stateData.json" />
         <option value="$PROJECT_DIR$/gunMovements.js" />
+        <option value="$PROJECT_DIR$/stateData.json" />
       </list>
     </option>
   </component>
@@ -111,7 +133,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -148,20 +170,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gun-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gun-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -170,22 +178,16 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="web.server" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="web.server" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="Sandy Hook Site" serverId="c4b08e14-9994-4113-bfbb-c9475c89aae2">
     <servers>
-      <server id="06eb64fb-c332-4010-8195-59e0b1c5ddd4">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
       <server id="c4b08e14-9994-4113-bfbb-c9475c89aae2">
         <serverdata>
           <mappings>
@@ -270,24 +272,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="721" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294509" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25364667" sideWeight="0.6705491" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27633712" sideWeight="0.60199004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39800996" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294509" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -356,6 +358,34 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/stateData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="92" selection-start="4093" selection-end="4093" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gunMovements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="18" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statesMap.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="25" selection-start="35656" selection-end="35656" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracing-2012.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="4666" selection-end="4666" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -391,13 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/statesMap.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="25" selection-start="35656" selection-end="35656" vertical-scroll-proportion="0.0">
@@ -407,21 +430,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tracing-2012.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="4666" selection-end="4666" vertical-scroll-proportion="-0.625">
+        <state line="15" column="0" selection-start="4666" selection-end="4666" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gunMovements.js">
+    <entry file="file://$PROJECT_DIR$/gunMovements.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="18" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+        <state line="5" column="10" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://localhost/gun-migrations/">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="37" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stateData.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="92" selection-start="4093" selection-end="4093" vertical-scroll-proportion="0.3106509">
+        <state line="9" column="28" selection-start="2699" selection-end="2699" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gunMovements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="21" selection-start="712" selection-end="712" vertical-scroll-proportion="0.45373666">
           <folding />
         </state>
       </provider>

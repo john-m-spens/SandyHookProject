@@ -53,8 +53,10 @@ function highlightState(d) {
 
     paintScores();
     if (d != null) {
-        g.selectAll("path")
-            .classed("Selected", function(cell) { return cell === d; });
+/*        g.selectAll("path")
+            .classed("Selected", function(cell) { return cell === d; }); */
+        document.getElementById("dialog-text").innerHTML = retrieveStatesData(Number(d.id)-1);
+
     }
 }
 
@@ -111,5 +113,12 @@ function resizeMap(width, height) {
     y = height /2  * scale;
     g.selectAll("path")
         .attr("transform", "translate(" + x + "," + y + ")scale(" + scale +")translate(" + -x + "," + -y + ")");
+
+}
+
+function retrieveStatesData(stateNum) {
+
+    return gunTraceData.states[stateNum].name;
+
 
 }

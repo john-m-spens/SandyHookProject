@@ -15,17 +15,32 @@
     <title></title>
 </head>
 <body>
+<h2>Where Do Illegal Guns Come From?</h2>
+
+<div style="width:640px">
+    <p>Each year approximately 250,000 firearms are reported stolen in the United States.  Based on the ATF Tracing Program, approximately half that number
+        are recovered each year, meaning there is an ever-growing stockpile of illegal arms that numbers in the millions.</p>
+    <p>Using ATF Tracing Data, we have tracked where these illegal guns have originated.  Some states contribute more to the illegal arms stock pile than others, and there appears to
+        be a correlation between the number of illegal guns that originate from a state and local legislation supporting gun rights.</p>
+    <p>Using a scoring model created by <i>Guns & Ammo</i> Magazine, we mapped the current status of gun rights against the number of illegal guns
+        originating from that state</p>
+</div>
+
+<div style='position: absolute;left:650px;top:10px'>
+    <img src="images/scoring-correlation.png" width=500px>
+</div>
+
 <div id="infoWindow" style="visibility: hidden">
     <div class="ui-overlay">
         <div class="ui-widget-backplane ui-corner-all" style="visibility: hidden; width: 362px; height: 352px; position: absolute; left: 870px; top: 150px;"></div>
     </div>
 
-    <div style="position: absolute; width: 350px; height: 400px; left: 790px; top: 120px; padding: 5px;" class="ui-widget ui-widget-content ui-corner-all">
+    <div style="position: absolute; width: 350px; height: 400px; left: 790px; top: 320px; padding: 5px;" class="ui-widget ui-widget-content ui-corner-all">
         <div class="ui-dialog-content ui-widget-content" style="background: none; border: 0;">
             <p><span id="state-name" class="window-state-name"></span></p>
             <table style="border: none">
                 <tr  style="border: none">
-                    <td style="border: none; width: 175px">Guns & Ammo Score: <span id="rights-score"></span></td>
+                    <td style="border: none; width: 175px">G & A Score: <span id="rights-score"></span>/50</td>
                     <td  style="border: none; width: 45%; vertical-align:middle; padding-left: 25px"><div id='ScoringThermometer'></div></td>
                 </tr>
             </table>

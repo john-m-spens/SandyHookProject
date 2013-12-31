@@ -1,7 +1,7 @@
 body {
     background: white;
     font-family: "Trebuchet MS", sans-serif;
-    font-size: 9pt;
+    font-size: 11pt;
     color: black;
 }
 
@@ -32,6 +32,12 @@ body {
 
 .window-state-text {
     font-size: 9pt;
+    color: #545454;
+}
+
+.window-state-quote {
+    font-size: 9pt;
+    font-style: italic;
     color: #545454;
 }
 

@@ -132,7 +132,12 @@ function resizeMap(width, height) {
 
 function retrieveScoringInfo(stateNum) {
 
-    scoringInfo = "<span class='window-state-text'>"+ gunTraceData.states[stateNum].stateSummary + "</span><br><br>";
+    scoringInfo = gunTraceData.states[stateNum].stateSummary;
+
+    if (scoringInfo.length > 512) {
+        scoringInfo = scoringInfo.substr(0, 512) + "...";
+    }
+    scoringInfo = "'<span class='window-state-quote'>" + scoringInfo + "</span>'<br>";
     return scoringInfo;
 }
 

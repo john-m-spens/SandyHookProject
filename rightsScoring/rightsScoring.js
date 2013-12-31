@@ -2,7 +2,7 @@ var path;
 var svg;
 var g;
 var gunTraceData;
-var maxWidth = 1300;
+var maxWidth = 1600;
 var top10List = new Array(10);
 var scale = 1;
 
@@ -34,7 +34,7 @@ function displayMap(width, height) {
             .data(json.features)
             .enter().append("path")
             .attr("d", path)
-            .on("mouseover", highlightState)
+            .on("click", highlightState)
             .on("focus", paintScores());
         resizeMap(width, height);  // Enables resizing based on screen size/resolution
     });
@@ -55,7 +55,21 @@ function highlightState(d) {
     if (d != null) {
 /*        g.selectAll("path")
             .classed("Selected", function(cell) { return cell === d; }); */
-        document.getElementById("dialog-text").innerHTML = retrieveStatesData(Number(d.id)-1);
+        stateNum = Number(d.id)-1;
+        document.getElementById("infoWindow").style.visibility = "visible";
+        document.getElementById("state-name").innerHTML = gunTraceData.states[stateNum].name;
+        document.getElementById("rights-score").innerHTML = gunTraceData.states[stateNum].score;
+        document.getElementById("trace-rank").innerHTML = gunTraceData.states[stateNum].rank;
+        document.getElementById("scoring-info").innerHTML = retrieveScoringInfo(stateNum);
+        document.getElementById("tracing-info").innerHTML = retrieveTracingInfo(stateNum);
+        $( "#ScoringThermometer" ).progressbar( "option", "value", gunTraceData.states[stateNum].score * 2);
+        $( "#RankingThermometer" ).progressbar( "option", "value", gunTraceData.states[stateNum].rank);
+
+        barColor = 'rgba(22, 174, 42, 0.89)';
+        if ((gunTraceData.states[stateNum].rank) > 33) barColor = '#fffe13';
+        if ((gunTraceData.states[stateNum].rank) > 66) barColor = '#cd0a0a';
+
+        $( "#RankingThermometer > div").css({ 'background': barColor + ' repeat-x 50% 50%' });
 
     }
 }
@@ -116,9 +130,17 @@ function resizeMap(width, height) {
 
 }
 
-function retrieveStatesData(stateNum) {
+function retrieveScoringInfo(stateNum) {
 
-    return gunTraceData.states[stateNum].name;
+    scoringInfo = "<span class='window-state-text'>"+ gunTraceData.states[stateNum].stateSummary + "</span><br><br>";
+    return scoringInfo;
+}
 
 
+function retrieveTracingInfo(stateNum) {
+
+    tracingInfo  = "<span class='window-state-text'> In 2012, "+ gunTraceData.states[stateNum].guns + " illegal guns were traced to " + gunTraceData.states[stateNum].name;
+    tracingInfo = tracingInfo + ", which equates " + gunTraceData.states[stateNum].traces + " illegal guns recovered per 100,000 residents."
+    tracingInfo  = tracingInfo  + "</span>";
+    return tracingInfo ;
 }

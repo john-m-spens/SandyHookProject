@@ -1,7 +1,7 @@
 body {
     background: white;
     font-family: "Trebuchet MS", sans-serif;
-    font-size: 9.5pt;
+    font-size: 9pt;
     color: black;
 }
 
@@ -19,6 +19,28 @@ body {
     font-size: 10pt;
     text-align: center;
 }
+
+.window-state-name {
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+.window-state-score {
+    font-size: 9pt;
+    font-weight: normal;
+}
+
+.window-state-text {
+    font-size: 9pt;
+    color: #545454;
+}
+
+.window-state-emphasis {
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+
 
 table,td,th {
     table-layout: fixed;

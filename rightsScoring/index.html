@@ -15,38 +15,35 @@
     <title></title>
 </head>
 <body>
-<h2>Where Do Illegal Guns Come From?</h2>
+<h1>Where Do Illegal Guns Come From?</h1>
 
-<div style="width:640px">
+<div style="width:620px">
     <p>Each year approximately 250,000 firearms are reported stolen in the United States.  Based on the ATF Tracing Program, approximately half that number
         are recovered each year, meaning there is an ever-growing stockpile of illegal arms that numbers in the millions.</p>
-    <p>Using ATF Tracing Data, we have tracked where these illegal guns have originated.  Some states contribute more to the illegal arms stock pile than others, and there appears to
-        be a correlation between the number of illegal guns that originate from a state and local legislation supporting gun rights.</p>
-    <p>Using a scoring model created by <i>Guns & Ammo</i> Magazine, we mapped the current status of gun rights against the number of illegal guns
-        originating from that state</p>
+    <p>Using ATF Tracing Data and a gun rights scoring model created by <i>Guns & Ammo</i> Magazine (<a href="http://www.gunsandammo.com/2013/03/14/ga-ranks-the-best-states-for-gun-owners-in-2013/">Laws for Firearms: Best States for Gun Owners in 2013</a>), we identified a correlation between
+        a state's stance toward gun control and the number of illegal guns originating from that state.</p>
+    <p><h2>State by State Breakdown</h2></p>
+    <p>This map of the US shows each state's scoring, as per the Guns and Ammo Article, and the ATF tracing data as of 2012.  Click on a state to
+    display the data.</p>
 </div>
 
 <div style='position: absolute;left:650px;top:10px'>
     <img src="images/scoring-correlation.png" width=500px>
 </div>
 
-<div id="infoWindow" style="visibility: hidden">
-    <div class="ui-overlay">
-        <div class="ui-widget-backplane ui-corner-all" style="visibility: hidden; width: 362px; height: 352px; position: absolute; left: 870px; top: 150px;"></div>
-    </div>
-
+<div id="infoWindow" style="visibility: visible">
     <div style="position: absolute; width: 350px; height: 400px; left: 790px; top: 320px; padding: 5px;" class="ui-widget ui-widget-content ui-corner-all">
         <div class="ui-dialog-content ui-widget-content" style="background: none; border: 0;">
             <p><span id="state-name" class="window-state-name"></span></p>
             <table style="border: none">
-                <tr  style="border: none">
+                <tr  id="scoring-row" style="border: none;visibility: hidden">
                     <td style="border: none; width: 175px">G & A Score: <span id="rights-score"></span>/50</td>
                     <td  style="border: none; width: 45%; vertical-align:middle; padding-left: 25px"><div id='ScoringThermometer'></div></td>
                 </tr>
             </table>
             <p><span id="scoring-info"></span></p>
             <table style="border: none">
-                <tr style="border: none">
+                <tr id="tracing-row" style="border: none;visibility: hidden">
                     <td style="border: none; width: 175px">Illegal Traces Ranking: <span id="trace-rank"></span>%</td>
                     <td  style="border: none; width: 45%; vertical-align:middle; padding-left: 25px"><div id='RankingThermometer'></div></td>
                 </tr>
@@ -57,12 +54,42 @@
     </div>
 </div>
 
-<div id=map-display class=map-display>
+<div id=map-display class=map-display style='position: absolute;left:0px;top:250px'>
     <script>
-        displayMap(800,800);
+        displayMap(800,700);
     </script>
 </div>
 
+<div style='position: absolute;left:10px;top:740px'>
+    <h2>Do More Illegal Guns Originate in 'Pro-Gun' States?</h2>
+    <img src="images/percent-guns-population.png" width=750px>
+</div>
+
+
+<div style='position: absolute;left:800px;top:800px; width:360px'>
+    <p>
+        If all things were equal, the percentage of guns recovered from a state should be roughly proportional to the percent of US population
+        that resides in a state.  In reality, that ratio varies from state to state.  We aggregated states based on their G&A scoring to determine
+        if pro-gun states contributed more or less of their share to the stock pile of illegal guns.
+    </p>
+    <p>
+        A value of 1 indicates that the percentage of illegal guns originating from those state is equal to the percentage of the US population
+        living in those states.  A score greater than 1 indicates the percentage of illegal guns is a greater than the percentage of population
+        by a factor of <i>y</i>.  A score less than 1 indicates the percentage of illegal guns is lower than the percentage of population.
+    </p>
+    <p>
+        As this graph indicates, states with a G&A score lower than 39 tend to produce a much smaller percentage of illegal guns in respect to
+        their population, while states whose scores are 39 or greater tend to produce a larger percentage of illegal guns.
+    </p>
+</div>
+
+<div  style='position: absolute;left:10px;top:1150px; width:1150px'>
+    <h2>What Does This All Mean?</h2>
+    The relationship between gun-rights and the proliferation if illegal arms is not causal.  There are a number of smaller states with high scores ( > 45)
+    that have produced relatively few illegal arms.  The relationship appears to be dependent on factors such as population size and density, as well
+    as crime and poverty rates within the state.  However, the data does seem to indicate that states with strong pro-gun legislation and higher
+    densities of gun ownership will produce more illegal guns than states that have instituted gun control legislation.
+</div>
 <script>
 
     $(function() {

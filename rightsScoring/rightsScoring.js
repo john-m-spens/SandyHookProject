@@ -2,7 +2,7 @@ var path;
 var svg;
 var g;
 var gunTraceData;
-var maxWidth = 1600;
+var maxWidth = 1700;
 var top10List = new Array(10);
 var scale = 1;
 
@@ -56,7 +56,8 @@ function highlightState(d) {
 /*        g.selectAll("path")
             .classed("Selected", function(cell) { return cell === d; }); */
         stateNum = Number(d.id)-1;
-        document.getElementById("infoWindow").style.visibility = "visible";
+        document.getElementById("scoring-row").style.visibility = "visible";
+        document.getElementById("tracing-row").style.visibility = "visible";
         document.getElementById("state-name").innerHTML = gunTraceData.states[stateNum].name;
         document.getElementById("rights-score").innerHTML = gunTraceData.states[stateNum].score;
         document.getElementById("trace-rank").innerHTML = gunTraceData.states[stateNum].rank;
@@ -70,6 +71,15 @@ function highlightState(d) {
         if ((gunTraceData.states[stateNum].rank) > 66) barColor = '#cd0a0a';
 
         $( "#RankingThermometer > div").css({ 'background': barColor + ' repeat-x 50% 50%' });
+
+        barColor = '#f69561';
+        if ((gunTraceData.states[stateNum].score) > 10) barColor = '#e88860';
+        if ((gunTraceData.states[stateNum].score) > 20) barColor = '#d0745c';
+        if ((gunTraceData.states[stateNum].score) > 30) barColor = '#ad493c';
+        if ((gunTraceData.states[stateNum].score) > 40) barColor = '#7d1f22';
+        if ((gunTraceData.states[stateNum].score) > 45) barColor = '#461113';
+
+        $( "#ScoringThermometer > div").css({ 'background': barColor + ' repeat-x 50% 50%' });
 
     }
 }

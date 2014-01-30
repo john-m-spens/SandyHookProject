@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="083987c8-e9d0-4195-8a76-f6409a8073ff" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../rightsScoring/jquery-ui-1.10.3.custom.css" afterPath="$PROJECT_DIR$/../rightsScoring/lib/jquery-ui-1.10.3.custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rightsScoring/index.html" afterPath="$PROJECT_DIR$/../rightsScoring/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rightsScoring/rightsScoring.css" afterPath="$PROJECT_DIR$/../rightsScoring/rightsScoring.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rightsScoring/rightsScoring.js" afterPath="$PROJECT_DIR$/../rightsScoring/rightsScoring.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gun-rights-scoring.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="083987c8-e9d0-4195-8a76-f6409a8073ff" time="1388436083541" ignored="false" />
+    <file path="/Dummy.txt" changelist="083987c8-e9d0-4195-8a76-f6409a8073ff" time="1391109415132" ignored="false" />
     <file path="/rightsScoring.js" changelist="083987c8-e9d0-4195-8a76-f6409a8073ff" time="1388591980663" ignored="false" />
     <file path="/statesData.json" changelist="083987c8-e9d0-4195-8a76-f6409a8073ff" time="1388461679806" ignored="false" />
-    <file path="/index.html" changelist="083987c8-e9d0-4195-8a76-f6409a8073ff" time="1388634580414" ignored="false" />
+    <file path="/index.html" changelist="083987c8-e9d0-4195-8a76-f6409a8073ff" time="1391122574976" ignored="false" />
     <file path="/fragment.js" changelist="083987c8-e9d0-4195-8a76-f6409a8073ff" time="1388303923446" ignored="false" />
     <file path="/rightsScoring.css" changelist="083987c8-e9d0-4195-8a76-f6409a8073ff" time="1388512780250" ignored="false" />
     <file path="$PROJECT_DIR$/../gun-migrations/gunMovements.js" changelist="083987c8-e9d0-4195-8a76-f6409a8073ff" time="1388393177439" ignored="false" />
@@ -38,7 +38,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../rightsScoring/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="49" selection-start="4498" selection-end="4498" vertical-scroll-proportion="0.037037037">
+            <state line="11" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.5330739">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -63,6 +63,13 @@
         </entry>
       </file>
       <file leaf-file-name="rightsScoring.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="http://localhost/rights-scoring/rightsScoring.js">
+          <provider selected="true" editor-type-id="httpFileEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rightsScoring.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../rightsScoring/rightsScoring.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="119" column="17" selection-start="4375" selection-end="4375" vertical-scroll-proportion="0.0">
@@ -81,9 +88,9 @@
         </entry>
       </file>
       <file leaf-file-name="jquery-ui-1.10.3.custom.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../rightsScoring/jquery-ui-1.10.3.custom.css">
+        <entry file="file://$PROJECT_DIR$/../rightsScoring/lib/jquery-ui-1.10.3.custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="606" column="27" selection-start="13113" selection-end="13113" vertical-scroll-proportion="-6.923077">
+            <state line="606" column="27" selection-start="13113" selection-end="13113" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,7 +99,7 @@
       <file leaf-file-name="statesData.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../rightsScoring/statesData.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="338" selection-start="6604" selection-end="6604" vertical-scroll-proportion="-9.375">
+            <state line="15" column="338" selection-start="6604" selection-end="6604" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,12 +123,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="localhost/rights-scoring/rightsScoring.js" />
         <option value="d3js.org/d3.v3.min.js" />
         <option value="$PROJECT_DIR$/../rightsScoring/jquery-ui-1.10.3.custom.css" />
         <option value="$PROJECT_DIR$/../rightsScoring/statesData.json" />
         <option value="$PROJECT_DIR$/../rightsScoring/rightsScoring.css" />
         <option value="$PROJECT_DIR$/../rightsScoring/rightsScoring.js" />
+        <option value="localhost/rights-scoring/rightsScoring.js" />
         <option value="$PROJECT_DIR$/../rightsScoring/index.html" />
       </list>
     </option>
@@ -157,6 +164,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -177,7 +185,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,6 +209,11 @@
         </serverdata>
       </server>
     </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../rightsScoring/lib" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.localhost">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -259,25 +271,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="721" extended-state="7" />
+    <frame x="0" y="22" width="1280" height="721" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969698" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6705491" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17504051" sideWeight="0.47587353" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21797004" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17504051" sideWeight="0.3044925" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22366288" sideWeight="0.32504147" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46600333" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22366288" sideWeight="0.20895523" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969698" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -349,45 +361,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../rightsScoring/rightsScoring.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rightsScoring/statesData.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="1" selection-start="5181" selection-end="5181" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rightsScoring/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#table#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../rightsScoring/rightsScoring.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="0" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0">
@@ -431,21 +404,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="http://localhost/rights-scoring/rightsScoring.js">
-      <provider selected="true" editor-type-id="httpFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rightsScoring/jquery-ui-1.10.3.custom.css">
+    <entry file="file://$PROJECT_DIR$/../rightsScoring/lib/jquery-ui-1.10.3.custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="606" column="27" selection-start="13113" selection-end="13113" vertical-scroll-proportion="-6.923077">
+        <state line="606" column="27" selection-start="13113" selection-end="13113" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../rightsScoring/statesData.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="338" selection-start="6604" selection-end="6604" vertical-scroll-proportion="-9.375">
+        <state line="15" column="338" selection-start="6604" selection-end="6604" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -464,9 +432,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../rightsScoring/lib/jquery-1.9.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="306" column="0" selection-start="8194" selection-end="8194" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rightsScoring/lib/jquery-ui-1.10.3.custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1622" column="0" selection-start="47445" selection-end="47445" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rightsScoring/lib/jquery-ui-1.10.3.custom.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://localhost/rights-scoring/rightsScoring.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../rightsScoring/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="49" selection-start="4498" selection-end="4498" vertical-scroll-proportion="0.037037037">
+        <state line="11" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.5330739">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />

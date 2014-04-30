@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2badd6e-c42a-46f2-9692-1eb7ed897e23" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rightsScoring/index.html" afterPath="$PROJECT_DIR$/../rightsScoring/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rightsScoring/jquery-ui-1.10.3.custom.css" afterPath="$PROJECT_DIR$/../rightsScoring/jquery-ui-1.10.3.custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rightsScoring/rightsScoring.css" afterPath="$PROJECT_DIR$/../rightsScoring/rightsScoring.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rightsScoring/rightsScoring.js" afterPath="$PROJECT_DIR$/../rightsScoring/rightsScoring.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rightsScoring/statesData.json" afterPath="$PROJECT_DIR$/../rightsScoring/statesData.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rightsScoring/barchart.html" afterPath="$PROJECT_DIR$/../rightsScoring/barchart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rightsScoring/data.tsv" afterPath="$PROJECT_DIR$/../rightsScoring/data.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gun-migrations.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d2badd6e-c42a-46f2-9692-1eb7ed897e23" time="1388306504857" ignored="false" />
+    <file path="/Dummy.txt" changelist="d2badd6e-c42a-46f2-9692-1eb7ed897e23" time="1397509024012" ignored="false" />
     <file path="/index.html" changelist="d2badd6e-c42a-46f2-9692-1eb7ed897e23" time="1388422370878" ignored="false" />
     <file path="/rightsScoring.js" changelist="d2badd6e-c42a-46f2-9692-1eb7ed897e23" time="1388422528629" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="d2badd6e-c42a-46f2-9692-1eb7ed897e23" time="1388422836912" ignored="false" />
     <file path="/rightsScoring.css" changelist="d2badd6e-c42a-46f2-9692-1eb7ed897e23" time="1388422033871" ignored="false" />
     <file path="/jquery-ui-1.10.3.custom.css" changelist="d2badd6e-c42a-46f2-9692-1eb7ed897e23" time="1388417935950" ignored="false" />
     <file path="/statesData.json" changelist="d2badd6e-c42a-46f2-9692-1eb7ed897e23" time="1388421377981" ignored="false" />
@@ -39,16 +36,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="756" selection-end="756" vertical-scroll-proportion="-10.0">
+            <state line="16" column="0" selection-start="756" selection-end="756" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gunMovements.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="gunMovements.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gunMovements.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="264" column="13" selection-start="7719" selection-end="7719" vertical-scroll-proportion="0.13913043">
+            <state line="264" column="13" selection-start="7719" selection-end="7719" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -57,7 +54,7 @@
       <file leaf-file-name="stateData.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stateData.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="2699" selection-end="2699" vertical-scroll-proportion="-5.625">
+            <state line="9" column="28" selection-start="2699" selection-end="2699" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -75,16 +72,16 @@
       <file leaf-file-name="statesMap.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statesMap.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="25" selection-start="35656" selection-end="35656" vertical-scroll-proportion="0.0">
+            <state line="12" column="25" selection-start="35656" selection-end="35656" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tracing-2012.json" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tracing-2012.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tracing-2012.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="4666" selection-end="4666" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="4666" selection-end="4666" vertical-scroll-proportion="0.050675675">
               <folding />
             </state>
           </provider>
@@ -135,7 +132,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -146,40 +143,18 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gun-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gun-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gun-migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="options.lastSelected" value="fileTemplates" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="web.server" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="Sandy Hook Site" serverId="c4b08e14-9994-4113-bfbb-c9475c89aae2">
     <servers>
@@ -274,7 +249,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27633712" sideWeight="0.60199004" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39800996" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -416,35 +391,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statesMap.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="35656" selection-end="35656" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tracing-2012.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="4666" selection-end="4666" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="http://localhost/gun-migrations/">
       <provider selected="true" editor-type-id="httpFileEditor">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stateData.json">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="2699" selection-end="2699" vertical-scroll-proportion="-5.625">
+        <state line="16" column="0" selection-start="756" selection-end="756" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/gunMovements.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="756" selection-end="756" vertical-scroll-proportion="-10.0">
+        <state line="264" column="13" selection-start="7719" selection-end="7719" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stateData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="28" selection-start="2699" selection-end="2699" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
@@ -456,9 +424,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gunMovements.js">
+    <entry file="file://$PROJECT_DIR$/statesMap.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="264" column="13" selection-start="7719" selection-end="7719" vertical-scroll-proportion="0.13913043">
+        <state line="12" column="25" selection-start="35656" selection-end="35656" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracing-2012.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="4666" selection-end="4666" vertical-scroll-proportion="0.050675675">
           <folding />
         </state>
       </provider>

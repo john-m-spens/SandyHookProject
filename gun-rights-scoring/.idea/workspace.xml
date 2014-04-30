@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="083987c8-e9d0-4195-8a76-f6409a8073ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rightsScoring/barchart.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rightsScoring/data.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rightsScoring/barchart.html" afterPath="$PROJECT_DIR$/../rightsScoring/barchart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rightsScoring/data.tsv" afterPath="$PROJECT_DIR$/../rightsScoring/data.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gun-migrations/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../gun-migrations/.idea/workspace.xml" />
     </list>
     <ignored path="gun-rights-scoring.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="083987c8-e9d0-4195-8a76-f6409a8073ff" time="1391598117844" ignored="false" />
+    <file path="/Dummy.txt" changelist="083987c8-e9d0-4195-8a76-f6409a8073ff" time="1397509023880" ignored="false" />
     <file path="/rightsScoring.js" changelist="083987c8-e9d0-4195-8a76-f6409a8073ff" time="1388591980663" ignored="false" />
     <file path="/statesData.json" changelist="083987c8-e9d0-4195-8a76-f6409a8073ff" time="1388461679806" ignored="false" />
     <file path="/index.html" changelist="083987c8-e9d0-4195-8a76-f6409a8073ff" time="1391122574976" ignored="false" />
@@ -45,19 +45,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="barchart.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="barchart.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../rightsScoring/barchart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="26" selection-start="1835" selection-end="1835" vertical-scroll-proportion="0.3617021">
+            <state line="1" column="0" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.3">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.tsv" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="data.tsv" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../rightsScoring/data.tsv">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+            <state line="2" column="7" selection-start="25" selection-end="25" vertical-scroll-proportion="0.12">
               <folding />
             </state>
           </provider>
@@ -132,15 +132,15 @@
         <option value="localhost/rights-scoring/rightsScoring.js" />
         <option value="$PROJECT_DIR$/../rightsScoring/index.html" />
         <option value="localhost/rights-scoring/barchart.html" />
-        <option value="$PROJECT_DIR$/../rightsScoring/data.tsv" />
         <option value="$PROJECT_DIR$/../rightsScoring/barchart.html" />
+        <option value="$PROJECT_DIR$/../rightsScoring/data.tsv" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="945" />
+    <option name="height" value="721" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -168,6 +168,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,20 +189,19 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../rightsScoring" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -292,16 +292,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="945" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1280" height="721" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6705491" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6865672" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22771475" sideWeight="0.2031439" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3146965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22771475" sideWeight="0.7956469" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23176661" sideWeight="0.4991708" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50082916" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23176661" sideWeight="0.6865672" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -450,13 +450,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rightsScoring/data.tsv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../rightsScoring/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="0" selection-start="3023" selection-end="3023" vertical-scroll-proportion="0.0">
@@ -464,16 +457,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rightsScoring/barchart.html">
+    <entry file="file://$PROJECT_DIR$/../rightsScoring/statesData.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="26" selection-start="1835" selection-end="1835" vertical-scroll-proportion="0.3617021">
+        <state line="15" column="338" selection-start="6604" selection-end="6604" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rightsScoring/statesData.json">
+    <entry file="file://$PROJECT_DIR$/../rightsScoring/barchart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="338" selection-start="6604" selection-end="6604" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.3">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rightsScoring/data.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="25" selection-end="25" vertical-scroll-proportion="0.12">
           <folding />
         </state>
       </provider>

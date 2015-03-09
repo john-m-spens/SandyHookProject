@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="Sandy Hook Site">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html/newSandyHook/rights-scoring" local="$PROJECT_DIR$/../rightsScoring" web="/rights-scoring" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
